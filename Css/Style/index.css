@@ -513,7 +513,7 @@ h3{
     .title, h2, .text-2 p, .img, .img img, .text-img img, .text-img p, .text-4 p, .text-5 p, .link-1 a, .img-4 img, .footer-link p{width: 100%;}
     .title{text-align: center;}
     .title{align-items: center; height: 60vh;}
-    .text{justify-content: center;}
+    .text{justify-content: center; padding: 0;}
     .img-1, .img-2, .text-img, .info, .view-1{width: 48%;}
     .text-3{width: 60%;}
     .footer-link{width: 30%;}
