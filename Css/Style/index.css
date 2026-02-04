@@ -497,7 +497,7 @@ h3{
     .container{width: 90%;}
     .title, h2, .text-2 p, .img, .img img, .text-img img, .text-img p, .text-4 p, .text-5 p, .link-1 a, .img-4 img, .footer-link p{width: 100%;}
     .title{text-align: center;}
-    .title{align-items: center; height: 62vh;}
+    .title{align-items: center; height: 70vh;}
     .text{justify-content: center;}
     .img-1, .img-2, .text-img, .info, .view-1{width: 48%;}
     .text-3{width: 60%;}
@@ -505,15 +505,15 @@ h3{
     .small-view-3{width: auto;}
 }
 @media(max-width:768px){
-    header{height: auto; padding: 30px 0;}
+    header{height: 60vh;}
     .container{width: 90%;}
     #navbar, .navbar, nav ul, #all, .img, .all, #all-2, #all-3, #all-4, .all-1{flex-direction: column;}
     #navbar, .navbar, nav ul, #all, .all, #all-3, #all-4{gap: 30px;}
-    #navbar, nav, .special-view, .text, .img-1, .img-2{padding: 0;}
+    nav, .special-view, .text, .img-1, .img-2{padding: 0;}
     nav ul, .title, h2, .text-2 p, .img, .img img, .text-img, .text-img img, .text-img p, .text-4 p, .link-1 a, .text-5 p, .view-1, .img-4, .img-4 img, .footer-link p, .small-view-3{width: 100%;}
     nav ul{gap: 16px;}
     .title, .all-1{text-align: center;}
-    .title{height: 29vh; align-items: center;}
+    .title{height: 32vh; align-items: center;}
     .title h1, .img-1, .icon-link{padding-bottom: 30px;}
     .title h1{font-size: 30px;}
     .text{justify-content: center;}
