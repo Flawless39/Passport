@@ -25,7 +25,7 @@ header{
     color: #fff;
     text-transform: capitalize;
 }
-#navbar-1{
+.dropdown-2{
     display: none;
 }
 nav{
@@ -509,8 +509,7 @@ h3{
 @media(min-width:768px) and (max-width:1200px){
     header{height: 80vh;}
     .container{width: 90%;}
-    .navbar{justify-content: space-between;}
-    #navbar-1{display: block;}
+    .dropdown-2{display: block;}
     .title, h2, .text-2 p, .img, .img img, .text-img img, .text-img p, .text-4 p, .text-5 p, .link-1 a, .img-4 img, .footer-link p{width: 100%;}
     .title{text-align: center;}
     .title{align-items: center; height: 60vh;}
@@ -519,18 +518,17 @@ h3{
     .text-3{width: 60%;}
     .footer-link{width: 30%;}
     .small-view-3{width: auto;}
-    #navbar{display: none;}
+    nav{display: none;}
 }
 @media(max-width:768px){
     header{height: 60vh;}
     .container{width: 90%;}
-    .navbar{justify-content: space-between;}
-    #navbar-1{display: block;}
+    .dropdown-2{display: block;}
     #all, .img, .all, #all-2, #all-3, #all-4, .all-1{flex-direction: column;}
     #all, .all, #all-3, #all-4{gap: 30px;}
     .small-view i{top: 10px;}
     .text, .img-1, .img-2{padding: 0;}
-    .navbar, .title, h2, .text-2 p, .img, .img img, .text-img, .text-img img, .text-img p, .text-4 p, .link-1 a, .text-5 p, .view-1, .img-4, .img-4 img, .footer-link p, .small-view-3{width: 100%;}
+    .title, h2, .text-2 p, .img, .img img, .text-img, .text-img img, .text-img p, .text-4 p, .link-1 a, .text-5 p, .view-1, .img-4, .img-4 img, .footer-link p, .small-view-3{width: 100%;}
     .title, .all-1{text-align: center;}
     .title{height: 40vh; align-items: center;}
     .title h1, .img-1, .icon-link{padding-bottom: 30px;}
@@ -541,5 +539,5 @@ h3{
         flex-direction: column;
         align-items: center;
     }
-    #navbar, .icon{display: none;}
+    nav, .icon{display: none;}
 }
